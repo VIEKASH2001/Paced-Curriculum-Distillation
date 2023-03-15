@@ -1,6 +1,6 @@
 Publication:
-Paced Curriculum Distillation with Prediction and Label Uncertainty for Image SegmentationPaced Curriculum Distillation with Prediction and Label Uncertainty for Image Segmentation
-International Journal of Computer Assisted Radiology and Surgery · Feb 3, 2023
+Paced Curriculum Distillation with Prediction and Label Uncertainty for Image Segmentation
+International Journal of Computer Assisted Radiology and Surgery
 
 Purpose
 In curriculum learning, the idea is to train on easier samples first and gradually increase the difficulty, while in self-paced learning, a pacing function defines the speed to adapt the training progress. While both methods heavily rely on the ability to score the difficulty of data samples, an optimal scoring function is still under exploration.
