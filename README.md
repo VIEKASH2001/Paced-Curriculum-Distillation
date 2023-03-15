@@ -1,3 +1,20 @@
+Publication:
+Paced Curriculum Distillation with Prediction and Label Uncertainty for Image SegmentationPaced Curriculum Distillation with Prediction and Label Uncertainty for Image Segmentation
+International Journal of Computer Assisted Radiology and Surgery · Feb 3, 2023
+
+Purpose
+In curriculum learning, the idea is to train on easier samples first and gradually increase the difficulty, while in self-paced learning, a pacing function defines the speed to adapt the training progress. While both methods heavily rely on the ability to score the difficulty of data samples, an optimal scoring function is still under exploration.
+
+Methodology
+Distillation is a knowledge transfer approach where a teacher network guides a student network by feeding a sequence of random samples. We argue that guiding student networks with an efficient curriculum strategy can improve model generalization and robustness. For this purpose, we design an uncertainty-based paced curriculum learning in self-distillation for medical image segmentation. We fuse the prediction uncertainty and annotation boundary uncertainty to develop a novel paced-curriculum distillation (P-CD). We utilize the teacher model to obtain prediction uncertainty and spatially varying label smoothing with Gaussian kernel to generate segmentation boundary uncertainty from the annotation. We also investigate the robustness of our method by applying various types and severity of image perturbation and corruption.
+
+Results
+The proposed technique is validated on two medical datasets of breast ultrasound image segmentation and robot-assisted surgical scene segmentation and achieved significantly better performance in terms of segmentation and robustness.
+
+Conclusion
+P-CD improves the performance and obtains better generalization and robustness over the dataset shift. While curriculum learning requires extensive tuning of hyper-parameters for pacing function, the level of performance improvement suppresses this limitation.
+
+
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
