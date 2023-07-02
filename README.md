@@ -1,8 +1,10 @@
 <a>
     <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=50&duration=2000&pause=500&multiline=true&width=1600&height=80&lines=Paced Curriculum Distillation" alt="Typing SVG" />
 </a>
-Paced Curriculum Distillation with Prediction and Label Uncertainty for Image Segmentation
+
+[Paced Curriculum Distillation with Prediction and Label Uncertainty for Image Segmentation]([url](https://www.springerprofessional.de/en/paced-curriculum-distillation-with-prediction-and-label-uncertai/24089586))
 International Journal of Computer Assisted Radiology and Surgery
+
 
 Purpose
 In curriculum learning, the idea is to train on easier samples first and gradually increase the difficulty, while in self-paced learning, a pacing function defines the speed to adapt the training progress. While both methods heavily rely on the ability to score the difficulty of data samples, an optimal scoring function is still under exploration.
